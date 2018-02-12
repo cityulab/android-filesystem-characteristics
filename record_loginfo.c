@@ -1,10 +1,3 @@
-/*
- * testmake01.c
- *
- *  Created on: 2018年1月24日
- *      Author: hubery
- */
-
 #include <sys/klog.h>
 #include <errno.h>
 #include <stdio.h>
@@ -72,5 +65,3 @@ int main(){
 	pthread_create(&tid, NULL, handler, &info);
 	pthread_join(tid, NULL);
 }
-
-
